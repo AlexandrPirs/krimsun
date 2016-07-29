@@ -1,0 +1,28 @@
+.header {
+	position: relative;
+	width: 100%;
+	min-height: 90px;
+	background-image: url("../img/header_bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.block__01 {
+	position: relative;
+	width: 100%;
+	min-height: 420px;
+	height: 100%;
+	background-image: url("../img/bg_1.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.block__02 {
+	position: relative;
+	width: 100%;
+	min-height: 270px;
+	background-color: #fff;
+	padding: 50px 0px;
+}

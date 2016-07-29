@@ -1,0 +1,161 @@
+.block__05 {
+	position: relative;
+	width: 100%;
+	min-height: 835px;
+	height: 100%;
+	background-image: url("../img/bg_3.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	padding-top: 70px;
+	.content__title {
+		text-align: center;
+		color: #142c59;
+		margin-bottom: 40px;
+	}
+	.item__service {
+		position: relative;
+		width: 100%;
+		min-height: 230px;
+		height: 100%;
+		img {
+			width: 100%;
+			min-height: 180px;
+			height: 100%;
+		}
+		p {
+			margin-top: 20px;
+			text-align: center;
+			color: #142c59;
+		}
+	}
+	.button {
+		display: block;
+		margin: 0 auto;
+		margin-top: 70px;
+		max-width: 290px;
+		width: 100%;
+		height: 54px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 50px;
+		text-shadow: 1px 2px 2px rgba(158,122,12,.75);
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		border-radius: 5px;
+		border: 2px solid #97d34f;
+		background-color: #7cd118;
+		border-bottom: 6px solid #76b212;
+		&:hover {
+			background-color: #7ee900;
+		}
+	}
+	.form__03 {
+		position: relative;
+		margin-top: 60px;
+		width: 100%;
+		min-height: 250px;
+		height: 100%;
+		background-color: rgba(255,255,255,.8);
+		padding: 30px 50px;
+		a {
+			display: block;
+			font-size: 22px;
+			font-weight: normal;
+			font-style: normal;
+			color: #000;
+			cursor: pointer;
+			text-decoration: none;
+			text-align: center;
+		}
+		.mail {
+			color: #3f6f9b;
+		}
+		p {
+			font-size: 12px;
+			text-align: center;
+			margin-top: 20px;
+		}
+		.social {
+			position: relative;
+			text-align: center;
+			margin-top: 25px;
+			a {
+				display: inline-block;
+				width: 32px;
+				height: 32px;
+				margin-left: 7px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+			.odnaklassikini {
+				background-image: url("../img/odnaklassikini.png");
+				&:hover {
+					background-image: url("../img/odnaklassikinih.png");
+				}
+			}
+			.google {
+				background-image: url("../img/google.png");
+				&:hover {
+					background-image: url("../img/googleh.png");
+				}
+			}
+			.facebook {
+				background-image: url("../img/facebook.png");
+				&:hover {
+					background-image: url("../img/facebookh.png");
+				}
+			}
+			.vk {
+				background-image: url("../img/vk.png");
+				&:hover {
+					background-image: url("../img/vkh.png");
+				}
+			}
+		}
+	}
+	.block__05__title__bottom {
+		position: relative;
+		margin-top: 20px;
+		p {
+			text-align: right;
+			color: #fff;
+			font-style: italic;
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.block__05 {
+		.col-xs-offset-2 {
+			margin-left: 0;
+		}
+		.col-xs-8 {
+			width: 100%;
+		}
+		.button {
+			max-width: 250px;
+		}
+		.form__03 {
+			padding: 30px 10px;	
+		}
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.block__05 {
+		.item__service {
+			p {
+				margin-bottom: 30px;
+			}
+		}
+		.button {
+			margin-top: 40px;
+		}
+
+	}
+}

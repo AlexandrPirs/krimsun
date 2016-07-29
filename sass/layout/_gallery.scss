@@ -1,0 +1,34 @@
+.gallery {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 70px 0px;
+	background-color: #e7e9ee;
+	.content__title {
+		text-align: center;
+		color: #142c59;
+	}
+	.gallery__content {
+		position: relative;
+		text-align: center;
+		.gallery__item {
+			position: relative;
+			display: inline-block;
+			width: 290px;
+			height: 290px;
+			background-color: #3656ab;
+		}
+	}	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.gallery {
+		.gallery__content {
+			.gallery__item {
+				width: 240px;
+				height: 240px;
+			}
+		}
+	}
+}

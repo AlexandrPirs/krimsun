@@ -1,0 +1,34 @@
+.icon__item {
+	position: relative;
+	width: 110px;
+	height: 110px;
+	background-color: #0f72fe;
+	border-radius: 50%;
+	border: 5px solid #e0e0e0;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	cursor: pointer;
+	&:hover {
+		background-color: #0b51b5;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+.icon__text {
+	text-align: center;
+	color: #142c59;
+	margin-top: 25px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.block__02 {
+		padding-bottom: 0;
+	}
+	.icon__text {
+		margin-bottom: 50px;
+	}
+}
