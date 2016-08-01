@@ -5,4 +5,7 @@ $(function() {
 		$(".nav ul").slideToggle("slow");
 	});
 
+	//popup magnific
+	$(".popup").magnificPopup();
+
 });

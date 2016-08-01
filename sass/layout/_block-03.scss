@@ -6,6 +6,8 @@
 	.content__title {
 		text-align: center;
 		color: #142c59;
+		font-size: 28px;
+		font-family: 'helvetica-5';
 	}
 	ul {
 		position: relative;
@@ -17,6 +19,8 @@
 			margin-top: 5px;
 			cursor: pointer;
 			text-align: center;
+			font-size: 14px;
+			font-family: 'helvetica-5';
 			&:first-child {
 				margin-top: 0;
 			}

@@ -36,7 +36,7 @@
 						<div class="top">
 							<p class="title">Уютная гостиница на берегу моря</p>
 							<p class="text">Растояние до моря 150 метров, лечебные озера 70 метров</p>
-							<a href="#" class="button">забронировать</a>
+							<a href="#form_reserve" class="button popup">забронировать</a>
 						</div>
 						<div class="bottom">
 							<p class="text">Ваш лучший отдых в Крыму</p>
@@ -146,7 +146,7 @@
 			<div class="row">
 				<div class="form__02">
 					<h1 class="title">Всего 150 метров до этого пляжа</h1>
-					<a href="#" class="button">забронировать</a>
+					<a href="#form_reserve" class="button popup">забронировать</a>
 					<p class="text">Ваш лучший отдых в Крыму</p>
 				</div>
 
@@ -205,7 +205,7 @@
 			</div>
 
 			<div class="row">
-				<a href="" class="button">забронировать</a>
+				<a href="#form_reserve" class="button popup">забронировать</a>
 			</div>
 
 			<div class="row">
@@ -233,8 +233,29 @@
 		</div>
 	</section>
 
+	<div class="hidden">
+		<form action="" id="form_reserve">
+			<h2>Забронировать</h2>
+
+			<label>
+				<span>Введите ваш email</span>
+				<input type="text" placeholder="your@gmail.com" name="name" required />
+			</label>
+
+			<label>
+				<span>Забронировать</span>
+				<input type="text" placeholder="+7 495 333 22 33" name="phone" required />
+			</label>
+
+			<div class="button_wrapper">
+				<button class="button">оставить заявку</button>
+			</div>
+		</form>
+	</div>
+
 	<script src="js/jquery/jquery-1.11.2.min.js"></script>
 	<script src="https://use.fontawesome.com/87f211dfea.js"></script>
+	<script src="libs/magnific/jquery.magnific-popup.min.js"></script>
 
 	<script src="js/common.js"></script>
 </body>
